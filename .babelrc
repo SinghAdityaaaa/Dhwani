@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": true
+        }
+      }
+    ]
+  ],
+  "ignore": [
+    "node_modules"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-optional-chaining"
+  ],
+  "sourceMaps": "inline"
+}
